@@ -1,3 +1,34 @@
 body {
-    background-color: skyblue;
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.step {
+    font-size: 24px;
+    color: #d1d1d1;
+}
+
+.step.active {
+    color: #28a745;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary.active, .btn-outline-primary:hover, .btn-outline-primary:focus {
+    background-color: #007bff;
+    color: #fff;
 }
